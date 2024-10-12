@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BOGO Offer</title>
+    <link rel="stylesheet" href="Index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>YAY! It's BOGO</h1>
+
+      <!-- 1 Unit -->
+      <div class="offer">
+        <input type="radio" id="oneUnit" name="unit" value="1" checked />
+        <label for="oneUnit" class="label">
+          <div class="unit-info">
+            <span>1 Unit</span>
+            <span class="discount">10% Off</span>
+          </div>
+          <div class="price-info">
+            <span
+              >$10.00 USD
+              <br />
+              <span class="strike-price">$24.00 USD</span>
+            </span>
+          </div>
+        </label>
+        <dt class="StandardPrice">Standard Price</dt>
+        <div class="size-color-container" id="sizeColorOne">
+          <div class="size-color">
+            <div class="dropdown-group">
+              <label class="dropdown-header size">Size</label>
+              <div class="numberSize">
+                <dt>#1</dt>
+                <select>
+                  <option>S</option>
+                  <option>M</option>
+                  <option>L</option>
+                </select>
+              </div>
+            </div>
+            <div class="dropdown-group">
+              <label class="dropdown-header color">Colour</label>
+              <select>
+                <option>Black</option>
+                <option>Red</option>
+                <option>Blue</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2 Unit (Most Popular) -->
+      <div class="offer">
+        <input type="radio" id="twoUnit" name="unit" value="2" />
+        <label for="twoUnit" class="label popular">
+          <div class="most-popular">MOST POPULAR</div>
+          <div class="unit-info">
+            <span>2 Unit</span>
+            <span class="discount">20% Off</span>
+          </div>
+          <div class="price-info">
+            <span
+              >$18.00 USD
+              <br />
+              <span class="strike-price">$24.00 USD</span>
+            </span>
+          </div>
+        </label>
+        <div class="size-color-container" id="sizeColorOne">
+          <div class="size-color">
+            <div class="dropdown-group">
+              <label class="dropdown-header size">Size</label>
+              <div class="numberSize">
+                <dt>#1</dt>
+                <select>
+                  <option>S</option>
+                  <option>M</option>
+                  <option>L</option>
+                </select>
+              </div>
+              <div class="numberSize">
+                <dt>#2</dt>
+                <select>
+                  <option>S</option>
+                  <option>M</option>
+                  <option>L</option>
+                </select>
+              </div>
+            </div>
+            <div class="dropdown-group">
+              <label class="dropdown-header color">Colour</label>
+              <select>
+                <option>Black</option>
+                <option>Red</option>
+                <option>Blue</option>
+              </select>
+              <select>
+                <option>Black</option>
+                <option>Red</option>
+                <option>Blue</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3 Unit -->
+      <div class="offer">
+        <input type="radio" id="threeUnit" name="unit" value="3" />
+        <label for="threeUnit" class="label">
+          <div class="unit-info">
+            <span>3 Unit</span>
+            <span class="discount">30% Off</span>
+          </div>
+          <div class="price-info">
+            <span
+              >$24.00 USD
+              <br />
+              <span class="strike-price">$24.00 USD</span>
+            </span>
+          </div>
+        </label>
+        <div class="size-color-container" id="sizeColorOne">
+          <div class="size-color">
+            <div class="dropdown-group">
+              <label class="dropdown-header size">Size</label>
+              <div class="numberSize">
+                <dt>#1</dt>
+                <select>
+                  <option>S</option>
+                  <option>M</option>
+                  <option>L</option>
+                </select>
+              </div>
+              <div class="numberSize">
+                <dt>#2</dt>
+                <select>
+                  <option>S</option>
+                  <option>M</option>
+                  <option>L</option>
+                </select>
+              </div>
+              <div class="numberSize">
+                <dt>#3</dt>
+                <select>
+                  <option>S</option>
+                  <option>M</option>
+                  <option>L</option>
+                </select>
+              </div>
+            </div>
+            <div class="dropdown-group">
+              <label class="dropdown-header color">Colour</label>
+              <select>
+                <option>Black</option>
+                <option>Red</option>
+                <option>Blue</option>
+              </select>
+              <select>
+                <option>Black</option>
+                <option>Red</option>
+                <option>Blue</option>
+              </select>
+              <select>
+                <option>Black</option>
+                <option>Red</option>
+                <option>Blue</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <p class="free-delivery">Free Delivery</p>
+        <p class="total">Total: $<span id="totalPrice">10.00</span> USD</p>
+      </div>
+
+      <button class="add-to-cart">+ Add to Cart</button>
+      <div>
+        <dt class="Powered">@ Powered by Pumper</dt>
+      </div>
+      
+    </div>
+    <script src="Index.js"></script>
+  </body>
+</html>
